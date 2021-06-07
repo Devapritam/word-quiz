@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Guess The Word Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="game.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<center>
+		<h1 class="game">Guess the word</h1>
+		<div class="col-lg-4 col-sm-8 col-xs-11 user_1">
+			<h3>Player 1 login for the game</h3>
+			<label>User name:</label>
+			<input type="text" name="user1_input" id="user1_input" class="form-control" placeholder="Enter your name">
+			<br><br>
+		</div>
+		<br>
+		<div class="col-lg-4 col-sm-8 col-xs-11 user_2">
+			<h3>Player 2 login for the game</h3>
+			<label>User name:</label>
+			<input type="text" name="user2_input" id="user2_input" class="form-control" placeholder="Enter your name">
+			<br><br>
+		</div>
+		<br>
+		<button style="width: 30%; font-family: 'Poppins', sans-serif; outline: none;" class="btn btn-primary" onclick="addUser()">Log In</button>
+	</center>
+
+	<script src="game_play.js"></script>
+</body>
+</html>
+

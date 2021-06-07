@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body
+{
+	background: lightblue;
+	box-sizing: border-box;
+	background:  rgba(0, 0, 0, 0.9) url('https://img.freepik.com/free-vector/quiz-background_23-2148159850.jpg?size=338&ext=jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.user_1 , .user_2
+{
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
+	font-family: 'Poppins', sans-serif;
+}
+
+
+#user1_input , #user2_input
+{
+	display: inline-block;
+	font-family: inherit;
+}
+#word
+{
+	width: 60%;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
+}
+#word_display
+{
+	letter-spacing: 5px;
+	overflow: hidden;
+}
+#output
+{
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
+}
+
+.btn {
+	box-shadow: 0 3px 7px rgb(0 0 0 / 80%);
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #bbb;
+	border: 2px solid white;
+	border-radius: 20px;
+}
